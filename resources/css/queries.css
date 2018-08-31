@@ -1,0 +1,57 @@
+
+
+
+
+
+
+/* small phones: from 1023 to 1200 px ful tablet/small pc */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box{
+    width: 100%;
+    padding: 0 2%;
+    }
+    
+    .row {
+        padding: 0 2%;
+    }
+}
+
+/* small phones: from 767 to 1023 px small tab to big */
+@media only screen max-width: 1023px) {
+    body { font-size: 18px; }
+    section { padding: 60px 0; }
+    
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .steps-box { margin-top 10px;  }
+    .steps-box:last-child { margin-top 10px;  }
+    .works-steps { margin-bottom: 40px; }
+    .works-steps:last-of-type { margin-bottom: 60px; }
+    
+    .app-screen { width: 50%; }
+    
+    .icon-small { 
+        width: 17px;
+        margin-right: 5px;
+    }
+    .city-feature { font-size: 90%; }
+    
+    .plan-box {
+        width: 100%;
+        margin-left: 0%;
+    }
+}
+
+/* small phones: from 481 to 767 px smallphone/tablets */
+@media only screen and (max-width: 767px) {
+    
+}
+
+
+/* small phones: from 0 to 480 px */
+@media only screen and (max-width: 480px) {
+    
+}
